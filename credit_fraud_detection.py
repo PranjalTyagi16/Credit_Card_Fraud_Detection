@@ -9,7 +9,7 @@ from sklearn import svm
 from sklearn.metrics import accuracy_score
 from sklearn.linear_model import LogisticRegression
 
-loaded_model=pickle.load(open('C:/Users/User/Desktop/credit card fraud/credit_fraud_detection/credit_fraud.sav','rb'))
+loaded_model=pickle.load(open('credit_fraud.sav','rb'))
 
 def credit_card_fraud(input_data):
 
